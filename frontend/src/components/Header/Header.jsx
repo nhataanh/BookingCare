@@ -45,7 +45,7 @@ const Header = () => {
 
   const toggleMenu = ()=> menuRef.current.classList.toggle('show_menu')
 
-  return <header className='header flex item-center' ref={headerRef}>
+  return <header className='header flex items-center' ref={headerRef}>
     <div className="container">
       <div className="flex items-center justify-between">
         <div>
